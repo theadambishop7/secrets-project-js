@@ -1,0 +1,30 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+#google-signin-button {
+  width: 191px;
+  height: 46px;
+  background-image: url("/images/btn_google_signin_dark_normal_web.png");
+}
+
+#google-signin-button:hover {
+  background-image: url("/images/btn_google_signin_dark_focus_web.png");
+}
+
+#google-signin-button:active {
+  background-image: url("/images/btn_google_signin_dark_pressed_web.png");
+}
